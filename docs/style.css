@@ -1,0 +1,61 @@
+/* Reset & Layout */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+  color: #eee;
+  font-family: 'Segoe UI', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Menu */
+#menu { text-align: center; margin-bottom: 1rem; }
+#menu h1 {
+  font-size: 3rem;
+  text-shadow: 0 0 8px #ff4040, 0 0 8px #4040ff;
+  margin-bottom: 0.5rem;
+}
+.menu-buttons {
+  display: flex; gap: 1rem; justify-content: center;
+}
+.menu-buttons button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.menu-buttons button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+#pvpBtn { background: #ff4040; color: #fff; }
+#pvaBtn { background: #4040ff; color: #fff; }
+
+/* Canvas & Container */
+#gameContainer { margin-top: 1rem; }
+canvas {
+  border: 4px solid #eee;
+  background: #222;
+  display: block;
+}
+
+/* Restart Button */
+.styled-btn {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  background: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.styled-btn:hover {
+  background: #218838;
+}
