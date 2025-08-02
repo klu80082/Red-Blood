@@ -1,0 +1,25 @@
+🎮 Controls:
+Player 1 (Red)
+Move & Jump: W (Jump)
+Shoot: E
+
+Player 2 (Blue)
+Move & Jump: ↑ Arrow (Jump)
+Shoot: 0 (Zero key)
+
+🔫 Objective:
+Shoot your opponent to reduce their HP to 0.
+Each round, the player who survives wins.
+Win 2 out of 3 rounds to win the match.
+
+🎵 Audio:
+Fight Music starts at the beginning of each match.
+Jump and Shoot sounds play based on actions.
+Restart sound plays when you restart a match.
+
+🏁 After Match:
+When the match ends, choose:
+🔁 Restart to play again.
+🏠 Main Menu to return to the home screen.
+❌ Quit to exit the game.
+
